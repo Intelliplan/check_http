@@ -2,6 +2,15 @@
 
 A tool from intelliplan for checking the health of a HTTP service from the command line.
 
+## How to build
+
+You build with [albacore][alba].
+
+``` bash
+bundle
+bundle exec rake
+```
+
 ## Usage
 
 ``` bash
@@ -29,3 +38,5 @@ $ echo $?
 
 Outputs zero (0) for OK, one (1) for Warning, two (2) for critical and three (3)
 for unknown.
+
+ [alba]: https://github.com/albacore/albacore
